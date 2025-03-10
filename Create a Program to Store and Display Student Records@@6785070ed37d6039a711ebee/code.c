@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &N);
     struct Student students[N];
     for (int i = 0; i < N; i++) {
-        printf("Enter details for student %d (Roll Number, Name, Marks):\n", i + 1);
+        printf(" %d (Roll Number, Name, Marks):\n", i + 1);
         scanf("%d", &students[i].rollNumber);
         getchar(); 
         fgets(students[i].name, 50, stdin);
