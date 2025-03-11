@@ -1,8 +1,7 @@
 #include <stdio.h>
-
-int main() {
-    float r;
-    scanf("%f",&r);
-    printf("Area: %.2f",3.14*r*r);
-    return 0;
+int main(){
+    char name[100],hobby[100];
+    int age;
+    scanf("%99s %d %99s",&name,&age,&hobby);
+    printf("Name: %s\nAge: %d\nHobby: %s",name,age,hobby);
 }
