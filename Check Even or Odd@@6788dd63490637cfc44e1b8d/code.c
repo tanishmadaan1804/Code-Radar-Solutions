@@ -5,8 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    printf(a%2==0?"Even":"Odd");
-    return 0;
+ int a;
+ scanf("%d",&a);
+ if(x%2==0){
+    printf("Even");
+ }
+ else{
+    printf("Odd")
+ }
+
 }
