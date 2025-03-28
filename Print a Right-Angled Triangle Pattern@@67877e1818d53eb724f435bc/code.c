@@ -6,9 +6,9 @@ int main(){
     int rows = 0;
     scanf("%d", &rows);
 
-    for(int i = 0; i < rows; i++)
+    for(int i = 1; i <= rows; i++)
     {
-        for(int j = 0; j < i; j++)
+        for(int j = 1; j <= i; j++)
         {
             printf("*");
         }
