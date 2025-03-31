@@ -15,6 +15,6 @@ int main(){
     if(count){
         printf("Sorted");
     }else{
-        printf("Unsorted");
+        printf("Not Sorted");
     }
 }
