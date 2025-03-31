@@ -1,16 +1,12 @@
-# include <stdio.h>
-
+#include<stdio.h>
 
 int main(){
+    int i , j ,N;
+    scanf("%d" , &N);
+    for(i=1 ; i<=N ; i++){
+        for(j =1 ; j <=i , j++){
+            printf("*");
 
-    int rows = 0;
-    scanf("%d", &rows);
-
-    for(int i = 1; i <= rows; i++)
-    {
-        for(int j = 1; j <= i; j++)
-        {
-            printf("* ");
         }
         printf("\n");
     }
