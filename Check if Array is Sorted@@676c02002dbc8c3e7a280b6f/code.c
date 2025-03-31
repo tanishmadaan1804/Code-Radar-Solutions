@@ -13,8 +13,8 @@ int main(){
         }
     }
     if(count){
-        printf("Sorted")
+        printf("Sorted");
     }else{
-        printf("Unsorted")
+        printf("Unsorted");
     }
 }
